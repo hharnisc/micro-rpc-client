@@ -1,5 +1,5 @@
 {
-  "name": "micro-rpc-client",
+  "name": "@hharnisc/micro-rpc-client",
   "version": "0.1.2",
   "description": "Universal JS client for micro-rpc",
   "main": "index.js",
