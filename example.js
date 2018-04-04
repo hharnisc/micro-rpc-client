@@ -1,5 +1,5 @@
 /* eslint-disable */
-const RPCClient = require('./index');
+const RPCClient = require('./src/index');
 
 const rpc = new RPCClient({
   url: 'https://rpc.local.buffer.com',

@@ -2,19 +2,19 @@
   "name": "@hharnisc/micro-rpc-client",
   "version": "0.1.2",
   "description": "Universal JS client for micro-rpc",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "start": "node .",
-    "test": "jest"
+    "test": "jest",
+    "test-watch": "jest --watch",
+    "build": "babel src -d lib",
+    "prepublish": "babel src -d lib"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bufferapp/micro-rpc-client.git"
   },
-  "keywords": [
-    "rpc",
-    "client"
-  ],
+  "keywords": ["rpc", "client"],
   "author": "hharnisc@gmail.com",
   "license": "MIT",
   "bugs": {
@@ -25,9 +25,9 @@
     "jest": "^19.0.2"
   },
   "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
     "isomorphic-fetch": "^2.2.1"
   },
-  "files": [
-    "index.js"
-  ]
+  "files": ["lib/"]
 }

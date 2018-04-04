@@ -1,5 +1,5 @@
 const fetch = require('isomorphic-fetch');
-const RPCClient = require('./index');
+const RPCClient = require('../src/index');
 
 describe('RPCClient', () => {
   it('should create an RPCClient', () => {
